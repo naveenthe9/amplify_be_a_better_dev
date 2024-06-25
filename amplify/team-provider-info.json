@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sttaq-dev-90d30-authRole",
+      "UnauthRoleArn": "arn:aws:iam::672201184306:role/amplify-sttaq-dev-90d30-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::672201184306:role/amplify-sttaq-dev-90d30-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sttaq-dev-90d30-deployment",
+      "UnauthRoleName": "amplify-sttaq-dev-90d30-unauthRole",
+      "StackName": "amplify-sttaq-dev-90d30",
+      "StackId": "arn:aws:cloudformation:us-east-1:672201184306:stack/amplify-sttaq-dev-90d30/da42f7f0-3227-11ef-9f0f-122caf50cde5",
+      "AmplifyAppId": "d3ok0ckyj30b79"
+    },
+    "categories": {
+      "function": {
+        "sttaqlambdafn": {
+          "deploymentBucketName": "amplify-sttaq-dev-90d30-deployment",
+          "s3Key": "amplify-builds/sttaqlambdafn-73786b656b5575754349-build.zip"
+        }
+      },
+      "api": {
+        "sttaqapi": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3ok0ckyj30b79",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
