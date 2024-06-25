@@ -28,7 +28,7 @@ const App = () => {
   return (
     
     <div className="App">
-      <h1>Super Simple React App</h1>
+      <h1>Super Simple React App After Modification</h1>
       <div>
           <input placeholder="customer id" type="text" value={input} onChange={(e) => setInput(e.target.value)}/>      
       </div>
