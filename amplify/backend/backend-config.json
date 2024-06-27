@@ -1,0 +1,50 @@
+{
+  "api": {
+    "api2c3033af": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifyfinalapi"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifyfinalapi": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifyfinalapi_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyfinalapi"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifyfinalapi_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyfinalapi"
+        }
+      ]
+    }
+  }
+}
